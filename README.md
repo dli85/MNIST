@@ -13,11 +13,11 @@ beforehand. Once all the data preparation is done, we can train the model.
 
 The mnistTrain.py file extracts the data and trains the model. When finished, the model will be saved as model.h5 to the same folder as the mnistTrain.py file is in
 
-The mnistTest.py file tests the model's accuracy on the testing data and displays the iamges as well as the model's predictions
+The mnistTest.py file tests the model's accuracy on the testing data and displays the images as well as the model's predictions
 
 ## Requirements
 
-tensorflow, matplotlib, numpy are required. Use pip to install them
+Use pip to install the requirements
 
 ```bash
 pip install tensorflow matplotlib numpy
