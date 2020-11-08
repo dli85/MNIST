@@ -2,12 +2,9 @@
 
 ## Overview
 
-Mnist is a keras dataset that contains tens of thousands of images of digits. The images are 28x28 and the goal is to train a model to recognize the which images corrospond to which 
-numbers. 
+Mnist is a keras dataset that contains tens of thousands of images of digits. The "goal" of the dataset is to create a program that can look the images and tell which digit the image is displaying. The images are 28x28 pixles.
 
-To do this, we first extract the dataset from the keras library into python lists. The lists contain the numerical values for the images. To view the actual images, matplotlib is needed.
-The lists are in the shape of 28 by 28. To feed the data into the model, we need to flatten them. We can do this by either adding a layer to our model or reshaping the lists
-beforehand. Once all the data preparation is done, we can train the model.
+To accomplish this task, we will use a simple neural network. We first extract the dataset from the keras library into python lists. The lists contain the numerical values for the images. To view the actual images, we will need to use matplotlib. The lists are in the shape of 28 by 28 as those are the dimensions of the images. To feed the data into the model, we need to flatten them. We can do this by either adding a layer to our model or reshaping the lists beforehand. Once all the data preparation is done, we can train the model.
 
 ## Usage
 
@@ -17,7 +14,7 @@ The mnistTest.py file tests the model's accuracy on the testing data and display
 
 ## Requirements
 
-Use pip to install the requirements
+Use pip to install the required libraries:
 
 ```bash
 pip install tensorflow matplotlib numpy
